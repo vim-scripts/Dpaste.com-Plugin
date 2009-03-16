@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2519
+
+dpaste.vim is a vim plugin for pasting to dpaste.com (#django's favourite paste bin!)
+
+The core of the script was inspired by LodgeIt.vim, which is also for a paste bin site. 
+
+Thanks to Paul Bissex (or pbx on irc) for creating dpaste.
+
+Usage:
+- :Dpaste  (create a paste from the current buffer or selection)
+
+You can also map paste to CTRL + P, just add this to your .vimrc:
+map ^P :Dpaste<CR>
+(where ^P is entered using CTRL + V, CTRL + P in Vim)
+
